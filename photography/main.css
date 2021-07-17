@@ -1,0 +1,206 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+ul
+{
+    list-style-type: none;
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    position:fixed;
+}
+li
+{
+    float: left;
+}
+li a
+{
+    display: block;
+    text-decoration: none;
+    padding: 15px 100px;
+    color: white;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.active
+{
+    background-color:blueviolet;
+}
+li a:hover
+{
+    background-color: grey;
+}
+.highlight
+{
+    width: auto;
+    height: 800px;
+    background-image: url(images/karsten-winegeart-1B22CkThfU0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+}
+.team
+{
+    width: auto;
+    height: 500px;
+}
+.team-members
+{
+    width: 300px;
+    height: 300px;
+    margin-top: 70px;
+    margin-left: 150px;
+    display: inline-block;
+}
+#box-shadow1
+{
+    box-shadow: -8px 20px 15px grey;
+}
+#box-shadow2
+{
+    box-shadow: 5px 10px 10px grey;
+}
+#box-shadow3
+{
+    box-shadow: 5px 8px 8px grey;
+}
+.title
+{
+    text-align: center;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding-top: 10px;
+    height: 50px;
+    opacity: 0.7;
+    animation-name: title-one;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes title-one
+{
+    0%{background-color: #012010}
+    25%{background-color: #1B511A}
+    50%{background-color: #6FA545}
+    75%{background-color: #C9E5AB}
+    100%{background-color: #E3E16C}
+}
+.three-long-div
+{
+    width: auto;
+    height: 600px;
+    background-color: black;
+}
+.td
+{
+    width: auto;
+    height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding-top: 10px;
+    opacity: 0.7;
+    animation-name: title-two;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes title-two
+{
+    0%{background-color: #012010}
+    25%{background-color: #1B511A}
+    50%{background-color: #6FA545}
+    75%{background-color: #C9E5AB}
+    100%{background-color: #E3E16C}
+}
+.city
+{
+    width: 300px;
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 150px;
+    display: inline-block;
+    background-color: aqua;
+}
+.city-image
+{
+    width: auto;
+    height: 250px;
+    background-color: blueviolet;
+}
+.content
+{
+    width: auto;
+    height: 250px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+.buy-tickets
+{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    border-radius: none;
+}
+.button-text
+{
+    color: white;
+}
+div img:hover
+{
+    opacity: 0.8;
+}
+.button-text:hover
+{
+    color: black;
+    background-color: white;
+}
+.contact
+{
+    width: auto;
+    height: 450px;
+    background-image: url(images/contact%20us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    
+}
+.title-three
+{
+    text-align: center;
+    padding-top: 20px;
+    font-family: monospace;
+    font-size: 50px;
+    border: 3px solid;
+}
+i
+{
+    font-size: 20px;
+}
+.icons
+{
+    width: 250px;
+    height: 120px;
+    transform: translate(400px);
+}
+div.icons
+{
+    font-weight: bolder;
+}
+.footer
+{
+    width: auto;
+    height: 30px;
+    text-align: center;
+    padding-top:  25px;
+    
+}
+.fa-heart
+{
+    color: red;
+}
